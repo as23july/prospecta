@@ -1,0 +1,9 @@
+A user might break the code by:
+
+1. Providing an incorrect file path: If the user provides an incorrect file path or the file does not exist, the program will raise an error and exit gracefully.
+
+2. Providing a file that is not in the correct CSV format: If the user provides a file that is not in the correct CSV format, the program will raise an error and exit gracefully.
+
+3. Providing a formula that is not valid or cannot be evaluated: If the user provides a formula that is not valid or cannot be evaluated, the program will raise an error and exit gracefully.
+
+4. Providing a formula with incorrect number of arguments or syntax : If the user provides a formula with incorrect number of arguments or syntax, the program will raise an error and exit gracefully.

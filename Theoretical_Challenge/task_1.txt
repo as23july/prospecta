@@ -1,0 +1,13 @@
+1. Read the input CSV file using the csv module in Python. This allows for easy parsing of the CSV data into rows and cells.
+
+2. Iterate through each row and cell of the input CSV data. For each cell, check if it starts with the '=' sign, which indicates that it is a formula.
+
+3. If the cell is a formula, use the appropriate logic to evaluate the formula and calculate the result. You can use the eval() function or a library like pandas to handle the formula.
+
+4. If the cell is not a formula, add the original cell value to the output row.
+
+5. Write the output row to the output CSV file using the csv module.
+
+6. Repeat the process for all the rows in the input CSV file.
+
+7. Close the input and output CSV files.

@@ -1,0 +1,9 @@
+The types of errors that I would check for are:
+
+1. File not found: If the input file is not found, the program will raise an error and exit gracefully.
+
+2. Invalid file format: If the input file is not in the correct CSV format, the program will raise an error and exit gracefully.
+
+3. Invalid formula: If the formula is not valid or cannot be evaluated, the program will raise an error and exit gracefully.
+
+4. Incorrect number of arguments in the formula: If the formula has wrong number of arguments or wrong syntax, the program will raise an error and exit gracefully.
